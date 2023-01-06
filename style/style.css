@@ -20,7 +20,7 @@ a {
     background-color: rgb(255, 111, 9);
     padding: 20px 25px;
     border-radius: 5px;
-    
+
 }
 
 /* banner section */
@@ -36,7 +36,8 @@ a {
     align-items: center;
     text-align: right;
 }
-.banner-items{
+
+.banner-items {
     padding: 100px 230px 0px 800px;
 }
 
@@ -50,35 +51,70 @@ a {
     color: #444343;
     margin: 24px 0px 32px;
 }
+
 /* failure section styles */
-.failure-section{
+.failure-section {
     display: flex;
     gap: 87px;
     align-items: center;
 }
-.failure-section .failure-img{
+
+.failure-section .failure-img {
     margin: 130px 0 130px 230px;
 }
-.failure-items{
+
+.failure-items {
     margin: 150px 280px 0 0;
 }
-.failure-title{
+
+.failure-title {
     font-size: 40px;
     font-weight: 700px;
 }
-.failure-desc{
+
+.failure-desc {
     font-size: 16px;
     color: #444343;
     margin-top: 24px;
     margin-bottom: 16px;
 }
-.failure-desc-point{
+
+.failure-desc-point {
     font-size: 16px;
     color: #444343;
     margin-bottom: 4px;
 }
-.fa-solid{
+
+.fa-solid {
     color: rgb(69, 240, 120);
     margin-right: 5px;
 }
+
 /* plans section style */
+.plan {
+    margin: 50px 230px;
+}
+
+.plan-heading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.plan-desc {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
