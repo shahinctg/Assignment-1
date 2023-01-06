@@ -127,16 +127,73 @@ a {
     background-image: url(../images/watch.png), url(../images/gradient3.png);
     background-blend-mode: overlay;
 }
-.banner-pos-item{
-    padding: 60px 617px 60px 64px;
+
+.banner-pos-item {
+    padding: 55px 617px 60px 64px;
 }
-.banner-pos-title{
+
+.banner-pos-title {
     font-size: 40px;
     color: white;
     margin-bottom: 24px;
 }
-.banner-pos .btn-primary{
+
+.banner-pos .btn-primary {
     background-color: #fff;
     color: rgb(255, 111, 9);
 }
+
 /* footer section */
+.footer {
+    background: #151414;
+    color: white;
+    display: flex;
+}
+
+.footer-future {
+    width: 50%;
+    margin: 130px 0 130px 230px;
+}
+
+.footer-sub {
+    width: 50%;
+    margin: 150px 230px;
+}
+
+.footer-future-title {
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.footer-desc {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+/* .footer-future li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+} */
+
+.footer-sub-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
+
+input {
+    width: 325px;
+    height: 50px;
+    background-color: #151414;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    border: 1px solid #c9c7c7;;
+    border-radius: 5px;
+}
+.footer-sub .btn-primary{
+    background-color: #fff;
+    color: rgb(255, 111, 9);
+}
