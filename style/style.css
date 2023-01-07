@@ -142,6 +142,31 @@ a {
     background-color: #fff;
     color: rgb(255, 111, 9);
 }
+/* about section */
+.about{
+    margin: 0 210px 130px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+}
+.about-title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.about-sub-title{
+    font-size: 20px;
+}
+
+.about-desc{
+    box-shadow: 10px 10px 10px rgb(235, 232, 232);
+}
+.about-desc p{
+    text-align: justify;
+    margin: 20px 40px;
+    color: #383838;
+}
 
 /* footer section */
 .footer {
@@ -171,11 +196,10 @@ a {
     margin-bottom: 24px;
 }
 
-/* .footer-future li {
+.footer-future ul li{
     display: inline-block;
-    width: 50px;
-    height: 50px;
-} */
+    padding: 4px;
+}
 
 .footer-sub-title {
     font-weight: 600;
